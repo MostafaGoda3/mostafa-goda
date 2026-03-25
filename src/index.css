@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-calligraphy: "Great Vibes", cursive;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-wedding-cream: #FDFBF7;
+  --color-wedding-gold: #D4AF37;
+  --color-wedding-gold-light: #F4E1A1;
+  --color-wedding-charcoal: #4A4A4A;
+}
+
+body {
+  background-color: var(--color-wedding-cream);
+  color: var(--color-wedding-charcoal);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.calligraphy {
+  font-family: var(--font-calligraphy);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
